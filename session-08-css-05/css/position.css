@@ -1,0 +1,54 @@
+.box{
+    width: 20vw;
+    height: 20vh;
+
+}
+.box1{
+background-color: aquamarine;
+/* position: relative;
+left: 2rem;
+top: 2rem; */
+z-index: 20;
+}
+.box2{
+    background-color: blueviolet;
+    /* position:absolute;
+    left: 30rem;
+    top: 30rem; */
+    z-index: 15;
+
+}
+.box3{
+    background-color: brown;
+    /* position: relative;
+    left: 3rem;
+    top: 3rem; */
+
+
+}
+.dort{
+    background-color: blue;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+}
+.absolute-parent{
+    border: 2px solid red;
+    width: 25vw;
+    height: 25vh;
+    position:absolute;
+    right: 5rem;
+}
+.box4{
+    background-color: darkcyan;
+    position: fixed;
+    right: 1rem;
+}
+.box5{
+    background-color: pink;
+    position: sticky;
+    top: 3rem;
+    margin: 1rem auto;
+    z-index: 50;
+}

@@ -1,0 +1,54 @@
+body{
+
+    font-family:"Nunito Sans",sans-serif;
+    margin: 0rem;
+}
+/* .main p{
+    margin: 1rem;
+} */
+
+.navbar-mor{
+    background-color: #8865a7;
+}
+.menu a{
+    color: white;
+    text-decoration: none;   
+}
+.menu{
+    color: white;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.menu a:hover{
+    color: black;
+}
+.navbar{
+    background-color: #ffaa53;
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0rem;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 3rem;
+}
+.navbar a:hover{
+    color: white;
+}
+
+.logo{
+    background-color: red;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}

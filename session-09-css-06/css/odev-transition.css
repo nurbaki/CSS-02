@@ -1,0 +1,58 @@
+body{
+margin-left: 10rem;
+}
+.kutu{
+    border: 2px solid red;
+    width: 15rem;
+    height: 14rem;
+    background-color: gray;
+    padding: 1px;
+    overflow: hidden;
+}
+.cerceve{
+    width: 15rem;
+    height: 14rem;
+    margin-left: -10rem;
+    transition: transform 2s;
+}
+/* .cerceve span.ok1{
+    position: relative;
+    left: 12rem;
+    color: black;
+    display: inline-block;
+ */
+/* .cerceve span.ok1:hover{
+        transform: rotateY(180);
+ */
+
+.cerceve:hover {
+    transform: translateX(10rem);
+}
+/* .cerceve:hover .menü{
+    transform: rotate(90);
+} */
+
+.menü{
+    width: 13rem;
+    color: white;
+    background-color: rgb(196, 129, 5);
+    text-align: center;    
+}
+.menü span.ok1{
+    position: relative;
+    left: 4rem;
+    color: black;
+}
+.liste{
+    width: 9rem;
+    height: 8rem;
+    background-color: orange;
+    padding: 2rem;
+}
+.liste li{
+    color: black;
+    list-style: none;
+    width: 8rem;
+}
+
+

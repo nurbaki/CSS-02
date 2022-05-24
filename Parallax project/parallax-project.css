@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+    width: 1344px;
+    height: 677px;
+}
+.container .page1{
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page1 .kutu1{
+    width: 25rem;
+    text-align: center;
+    margin: auto;
+    border: 7px solid purple;
+    border-radius: 70px 0 70px 0;
+}
+.kutu1 div{
+    background-color: darkslategray;
+    margin: 1rem;
+    padding: 3rem 0.5rem;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    border-radius: 50px 0 50px 0;
+}
+.container .page2{
+    background-image: url("./img/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.page2 .metin2{
+    padding: 2rem;
+    background-color: white;
+    height: 10rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page2 .kutu2 img{
+    width: 30rem;
+    margin: 10rem;
+}
+
+
+.container .page3{
+    background-image: url("./img/bg3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.page3 .metin3{
+    padding: 2rem;
+    background-color: darkslategray;
+    color: white;
+    height: 10rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page3 .kutu3{
+    width: 35rem;
+    margin: auto;
+    border: 7px solid purple;
+    border-radius: 28px 0 28px 0;
+}
+.kutu3 div{
+    background-color: darkslategray;
+    margin: 0.5rem;
+    padding: 1rem 0.5rem;
+    text-align:justify;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    border-radius: 14px 0 14px 0;
+}
+
+.container .page4{
+    background-image: url("./img/bg4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.page4 .metin4{
+    padding: 2rem;
+    background-color: white;
+    /* color: white; */
+    height: 10rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page4 .kutu4{
+    width: 23rem;
+    margin: auto;
+    border: 7px solid purple;
+    border-radius: 28px 0 28px 0;
+}
+.kutu4 div{
+    background-color: darkslategray;
+    margin: 0.5rem;
+    padding: 1rem 0.5rem;
+    text-align:justify;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    border-radius: 14px 0 14px 0;
+}
+
+.container .page5{
+    background-image: url("./img/bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.page5 .metin5{
+    padding: 2rem;
+    background-color: darkslategray;
+    color: white;
+    height: 10rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page5 .kutu5{
+    width: 27rem;
+    margin: auto;
+    border: 7px solid purple;
+    border-radius: 28px 0 28px 0;
+}
+.kutu5 div{
+    background-color: darkslategray;
+    margin: 0.5rem;
+    padding: 1rem 0.5rem;
+    text-align:justify;
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+    border-radius: 14px 0 14px 0;
+}
+
+
+
+
+
+
+/* background-size: cover; */
+/* ekran büyükken ekranı tamamen sar, kapla,gerekirse kırp */
+
+/* background-attachment:fixed; */
+/* parallax effect ini veren komut */
+/* background-position:top center; */
+/* tepesini göster ortala */
+/* center center:resim tam ortalansın ekran büyüdükçe resim büyümesin alt üst ortalı gözüksün,
+ top = tepesi çok gözüksün, bottom= alt tarafı çok gözüksün */

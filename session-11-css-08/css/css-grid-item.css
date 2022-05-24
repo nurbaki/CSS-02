@@ -1,0 +1,74 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 1fr 1fr 1fr 1fr  */
+    /* 1fr 50px 1fr 1fr */
+    /* fr esit parcalara böler, 4 esit parcaya bölme*/
+    grid-template-rows:repeat(4,15vh) 15vh 15vh;
+
+    /* grid-template-rows:repeat(10,15vh); */
+    /* dikeyde yüksekliği 4 eşit (ekranın %15 ini alacak şekilde)parçaya böldük. taşanlar olursa onlara da eşit yer verme adına parantez dışına satır adedi kadar ölçü vermeliyiz. vermezsek default div kadar olur. */
+    gap:10px 5px;
+   }
+   
+   /* .content:nth-child(odd){
+    background-color:pink;
+   }
+   .content:nth-child(even){background-color: aquamarine;} */
+   
+   .content{
+    background-color:yellowgreen;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid gray;
+   
+   }
+   
+   .content1{
+   
+   grid-column-start:1;
+   grid-column-end:3;
+   /* grid-row:3; */
+   /* 3. satıra atmak istersek üstteki kod */
+   background-color:pink;
+   }
+   
+   .content4{
+   grid-row-start:2;
+   grid-row-end:4;
+   background-color:orange;
+   }
+   
+   .content6{
+    /* 
+   grid-row-start:2;
+   grid-row-end:4;
+   grid-column-start:3;
+   grid-column-end:5; */
+   background-color:rgb(177, 42, 177);
+   /** alternatif yol */
+   grid-area: 2 / 3 / span 2 / span 2;
+   /* satır başlangıç / sütun başlangıç / 2 parça satır  / 2 parça sütun ilerle */
+   }
+   
+   .content9{
+    background-color:aqua;
+    grid-row-start:4;
+    grid-row-end:6;
+    grid-column:2;
+   /* birleştirince default olarak başa geliyor, kendi sütununa yollamak için üstteki kod */
+   }
+   
+   
+   .content10{
+    grid-area: 4 / 3 / span 2 / span 2;
+    background-color:red;
+   }
+   .content12{
+       /* grid-area: 6/1/span 1/span 4; */
+
+       /* iki versiyonla yazılabilir, sonuç aynı*/
+
+       grid-column: span 4;
+   }
